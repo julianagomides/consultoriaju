@@ -1,5 +1,5 @@
 (function () {
-  var email = "contato@jucampos.com";
+  var email = "julianac.gomides@gmail.com";
   var copyButton = document.querySelector("[data-copy-email]");
   var status = document.querySelector(".copy-status");
   var contactForm = document.querySelector("#contact-form");
