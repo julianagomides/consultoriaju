@@ -1297,7 +1297,10 @@ blockquote {
   }
 
   .authority__photo img {
-    aspect-ratio: 16 / 10;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+    object-position: center;
   }
 
   .contact {
