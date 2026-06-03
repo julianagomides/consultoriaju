@@ -1523,3 +1523,17 @@ blockquote {
   }
 }
 
+@media (max-width: 767px) {
+  .authority__photo {
+    overflow: visible;
+  }
+
+  .authority__photo img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
